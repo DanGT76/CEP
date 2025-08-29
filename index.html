@@ -8,10 +8,10 @@
 </head>
 <body>
 
-    <form action="" method="post">
+    <form onsubmit="consultaCEP(event)">
         <label for="cep">CEP:</label><br>
         <input type="text" name="cep" id="cep" autofocus required>
-        <button type="submit" onclick="consultaCEP()">Buscar</button><br>
+        <button type="button" onclick="consultaCEP()">Buscar</button><br>
         <label for="logradouro">Logradouro:</label><br>
         <input type="text" name="logradouro" id="logradouro" required><br>
         <label for="bairro">Bairro:</label><br>
